@@ -3,9 +3,9 @@ package homework3;
 public class Tasks {
     public static void main(String[] args) {
         System.out.println("Домашнее задание - 3. Задание 1.");
-        int CurrentYear = 0;
-        int BeforeCurrentYear = 2022 - 200;
-        int AfterCurrentYear = 2022 + 100;
+        int CurrentYear = 2022;
+        int BeforeCurrentYear = CurrentYear - 200;
+        int AfterCurrentYear = CurrentYear + 100;
         for (int Year = BeforeCurrentYear; Year <= AfterCurrentYear ; Year++) {
             if (Year % 79 == 0) {
                 System.out.println(Year);
