@@ -37,5 +37,6 @@ public class Tasks {
             newCountryY = newCountryY + difference;
             System.out.println("Год " + g + " численность населения составляет " + newCountryY + ".");
         }
+
     }
 }
